@@ -1,27 +1,27 @@
-body {
-  margin: 0;
+/* Global Section */
+
+a {
+  color: black;
 }
+
+/* Header Section */
 
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  align-items: center;
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
   background-color: white;
-  align-items: center;
 }
 
 header nav {
   padding-right: 40px;
-}
-
-a {
-  color: black;
 }
 
 nav span {
@@ -29,15 +29,15 @@ nav span {
   padding: 20px 10px;
 }
 
-.logo span {
-  color: MediumAquamarine;
-}
-
 .logo {
+  display: flex;
+  align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  align-items: center;
-  displey: flex;
+}
+
+.logo span {
+  color: MediumAquamarine;
 }
 
 .logo img {
