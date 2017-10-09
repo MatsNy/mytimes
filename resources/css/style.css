@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  align-items: center;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+a {
+  color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo {
+  flex-grow: 1;
+  padding-left: 30px;
+  align-items: center;
+  displey: flex;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
